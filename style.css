@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container{
+    padding: 3rem;
+    background-color: rgb(230, 241, 245);
+    height: 100vh;
+}
+
+.hero-section{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.jobless{
+    font-weight: 530;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: black;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.home{
+    font-weight: 550;
+}
+
+li a:hover{
+    color: chartreuse;
+}
+
+.sign-up{
+    /* padding: 0.5rem 1rem; */
+    width: 100px;
+    height: 30px;
+    margin-top: -0.1rem;
+    padding-top: 0.4rem;
+    font-size: 15px;
+    background-color: rgb(241, 244, 245);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-heroSection{
+    margin-top: 5rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.get{
+    font-size: 30px;
+}
+
+.discover{
+    font-size: 15px;
+    color: gray;
+}
+
+.Btn{
+    background-color: rgb(11, 11, 84);
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+button a{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+.link{
+    padding-left: 30px;
+    color: rgb(11, 11, 84);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.jobs{
+    font-size: 15px;
+    margin-top: 5rem;
+    padding-left: 20px;
+}
+
+.footer{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.box-one{
+    background-color: rgb(11, 11, 84);
+    width: 400px;
+    height: 250px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.img{
+    width: 60px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 1rem;
+    padding-left: 20px;
+}
+
+.text{
+   display: inline-block;
+   margin-left: 10px;
+   margin-top: 1rem;
+}
+
+.frontend{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.figma{
+    color: gray;
+}
+
+.dummyText{
+    margin-top: 3rem;
+    width: 340px;
+    line-height: 30px;
+    color: gray;
+    padding-left: 20px;
+}
+
+.btnTwo{
+    background-color: rgb(26, 26, 105);
+    color: gray;
+    border-radius: 15px;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 20px;
+}
+
+.dols{
+    padding-left: 70px; 
+    color: white;
+}
+
+.box-two, .box-three{
+    background-color: rgb(255, 253, 253);
+    width: 400px;
+    height: 250px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.data, .technical{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-two, .btn-three{
+    background-color: rgb(193, 187, 187);
+    border-radius: 15px;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-two button{
+    color: black;
+}
+
+.dols-two{
+    padding-left: 70px; 
+    color: black;
+    font-weight: 600;
+}
+
+.dols-three{
+    padding-left: 30px; 
+    color: black;
+    font-weight: 600;
+}
+
+/* @media (max-width: 1090px){
+    .hero-section{
+        width: 100%;
+        background-color: rgb(230, 241, 245);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    .nav{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .jobless{
+        display: block;
+    }
+}*/
+
+
